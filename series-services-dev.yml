@@ -1,0 +1,18 @@
+server:
+  port: 8086
+  
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: root
+      password: root
+      database: tp_final
+      port: 27017
+      host: mongodb
+
+info:
+  app:
+    name: ${spring.application.name}
+    version: 1.0.0
+    description: Series Microservice
