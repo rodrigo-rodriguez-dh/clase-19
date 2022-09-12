@@ -32,7 +32,7 @@ spring:
           filters:
             - name: CircuitBreaker
               args:
-                name: catalogService
+                name: seriesService
                 fallbackUri: forward:/fallback/series
 
 info:
